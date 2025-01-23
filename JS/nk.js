@@ -7,3 +7,13 @@ function nk() {
 }
 
 console.log(nk());
+
+
+
+
+function nik(m) {
+    return m.split("").reverse().join("");
+}
+
+const n = nik("nikhil");
+console.log(n);
