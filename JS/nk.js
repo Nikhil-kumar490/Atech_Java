@@ -17,3 +17,4 @@ function nik(m) {
 
 const n = nik("nikhil");
 console.log(n);
+
