@@ -18,3 +18,9 @@ function nik(m) {
 const n = nik("nikhil");
 console.log(n);
 
+function nik(m) {
+    return m.split("").reverse().join("");
+}
+
+const n = nik("nikhil");
+console.log(n);
