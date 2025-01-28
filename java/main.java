@@ -1,4 +1,4 @@
-class main {
+class mains {
     public static void main(String[] a){
 //        float n= 5;
 //        double n= num;
