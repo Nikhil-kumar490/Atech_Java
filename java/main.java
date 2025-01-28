@@ -7,6 +7,7 @@ class mains {
 //        double n= 11.9999;
 //        int num=(int)n;
 
+//        data lose issue:-
         int num=130;
         byte r=(byte)num;
 
