@@ -9,5 +9,9 @@ class Bitwise{
         int d=9;//1001
         System.out.println(c&d);
 
+        int e= 11;//1011
+        int f =4;//0100
+        System.out.println(e & f);
+
     }
 }
