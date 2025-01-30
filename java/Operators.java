@@ -11,7 +11,7 @@ public class Operators {
         System.out.println(a<=b);
         System.out.println(a!=b);
 
-// Logical Opretors------
+// Logical Opretors--(&&, \\, !=)
 
 //        boolean c= true;
 //        boolean d= false;
