@@ -13,5 +13,14 @@ class Bitwise{
         int f =4;//0100
         System.out.println(e & f);
 
+        //Leftshift opretor----
+        int m = 5;
+        int n= m<<2;
+        System.out.println(n);
+
     }
 }
+
+
+
+
