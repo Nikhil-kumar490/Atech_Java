@@ -25,6 +25,14 @@ public class Operators {
         // \\
         System.out.println(c==d || c==e);
 
+        // != (ulta kar deta hai)
+        int f=2;
+        int g=3;
+        int h=2;
+        boolean check= false;
+        System.out.println(!check);
+
+
 
     }
 
