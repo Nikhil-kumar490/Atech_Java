@@ -18,6 +18,11 @@ class Bitwise{
         int n= m<<2;
         System.out.println(n);
 
+        // Rightshift--
+        int k=50;
+        int l=k>>2;
+        System.out.println(l);
+
     }
 }
 
