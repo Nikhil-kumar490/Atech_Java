@@ -32,10 +32,10 @@ public class switch_3 {
                 System.out.println("Wrong number");
         }
 
-        public static int que(){
-            Scanner s= new Scanner(System.in);
-            System.out.println("Do you want know ");
-            String ans
+//        public static int que(){
+//            Scanner s= new Scanner(System.in);
+//            System.out.println("Do you want know ");
+//            String ans;
         }
     }
-}
+
