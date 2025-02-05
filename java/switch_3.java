@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class switch_2 {
+public class switch_3 {
     public static void main(String[] args) {
         Scanner nk= new Scanner(System.in);
         System.out.print("Enter a num : ");
@@ -32,5 +32,10 @@ public class switch_2 {
                 System.out.println("Wrong number");
         }
 
+        public static int que(){
+            Scanner s= new Scanner(System.in);
+            System.out.println("Do you want know ");
+            String ans
+        }
     }
 }
