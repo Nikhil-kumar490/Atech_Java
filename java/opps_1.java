@@ -11,5 +11,8 @@ public class opps_1 {
     String model;
     String color;
     int launchYear;
-    System.out.println("Model= "+model+"Color="+color+ "Lainch on= "+launchYear);
+    void display(){
+        System.out.println("Model= "+model+"Color="+color+ "Lainch on= "+launchYear);
+    }
+
  }
