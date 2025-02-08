@@ -1,5 +1,5 @@
-
-    // A driving liasence issue of 18+?
+package Task;
+// A driving liasence issue of 18+?
 
     import java.util.Scanner;
 
