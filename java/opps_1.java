@@ -1,13 +1,14 @@
 public class opps_1 {
     public static void main(String [] a){
-       Car c1=new Car();
+       Cars c1=new Cars();
        c1.model= "carx1";
        c1.color="red";
         c1.launchYear=2015;
         c1.display();
     }
 }
- class Car{
+ class Cars{
+
     String model;
     String color;
     int launchYear;
