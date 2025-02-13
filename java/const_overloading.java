@@ -6,10 +6,11 @@ public class const_overloading {
 class T{
     int i;
     T(){
-        this("A");
+        this(5);
         System.out.println("this is me");
     }
     T(int i){
+        this("A");
         this.i =i;
         System.out.println(i);
     }
