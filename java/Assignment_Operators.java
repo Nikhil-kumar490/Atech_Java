@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Assignment_Operators {
-    public static void main(String[] a) {
+    public static void main(String[] arg) {
         Scanner var = new Scanner(System.in);
 
         System.out.print("1st Number : ");
