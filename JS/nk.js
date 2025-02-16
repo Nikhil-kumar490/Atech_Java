@@ -7,6 +7,9 @@ function nk() {
 }
 
 console.log(nk());
+console.log(nk());
+console.log(nk());
+console.log(nk());
 
 
 
