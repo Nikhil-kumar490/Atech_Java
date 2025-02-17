@@ -3,17 +3,23 @@ public class use_of_super {
 //        P p =new P();
 //        p.M();
         Cs s= new Cs();
-        s.M();
+//        s.M();
     }
 }
 class P{
 
+    P(){
+        System.out.println("p");
+    }
 //    void M(){
 //        System.out.println("i am P ");
 //    }
 
 }
 class Cs extends P{
+    Cs(){
+//        System.out.println("Cs");
+    }
 //    @Override
 //    void M(){
 //        super.M();
