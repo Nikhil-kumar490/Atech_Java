@@ -1,17 +1,16 @@
 public class use_of_super {
     public static void main(String[] args) {
-        Cs s= new Cs();
+       Ch c = new Ch();
+       c.display();
     }
 }
 class P{
-
-    P(){
-        System.out.println("p");
-    }
-
+    int i = 10;
 }
-class Cs extends P{
-    Cs(){
+class Ch extends P{
+   int i = 20;
+   void display(){
+       System.out.println(super.i);
 
-    }
+   }
 }
