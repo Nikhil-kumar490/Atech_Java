@@ -1,9 +1,6 @@
 public class use_of_super {
     public static void main(String[] args) {
-//        P p =new P();
-//        p.M();
         Cs s= new Cs();
-//        s.M();
     }
 }
 class P{
@@ -11,18 +8,10 @@ class P{
     P(){
         System.out.println("p");
     }
-//    void M(){
-//        System.out.println("i am P ");
-//    }
 
 }
 class Cs extends P{
     Cs(){
-//        System.out.println("Cs");
+
     }
-//    @Override
-//    void M(){
-//        super.M();
-//        System.out.println("i am Cs");
-//    }
 }
