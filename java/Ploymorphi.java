@@ -6,6 +6,6 @@ public class Ploymorphi {
 }
 class AC{
     void M(int i){
-        System.out.println();
+        System.out.println(i);
     }
 }
