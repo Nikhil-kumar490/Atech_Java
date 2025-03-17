@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.*;
 
 public class array_1 {
     public static void main(String[] arrgs){
@@ -67,6 +67,14 @@ public class array_1 {
         int[] d= new int[5];
         System.arraycopy(s,1,d,0,3);
         System.out.println(Arrays.toString(d));
+
+        // 9 -> List
+        String[] Fruits= {"Apple","Banana","Guava"};
+        System.out.println(Arrays.toString(Fruits));
+        List<String> fruits_list = Arrays.asList(Fruits);
+        System.out.println(fruits_list);
+
+
 
     }
 
