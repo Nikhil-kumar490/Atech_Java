@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class Array_list_2 {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
+        // for add new elem
         list.add("Apple");
         list.add("Mango");
         list.add(1,"Orange");
@@ -13,6 +14,8 @@ public class Array_list_2 {
         list.add(2,"E");
         list.add(1,"B");
         System.out.println(list);
+
+        // for return the specific index value
         System.out.println(list.get(1));
     }
 }

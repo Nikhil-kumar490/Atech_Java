@@ -12,7 +12,10 @@ public class Array_list_3 {
             list.add("c");
             list.add(1,"D");
             list.remove(3);
+
+            //for Replace the elmt
             list.set(2,"H");
+
             list.add("F");
             list.add(3,"G");
 
