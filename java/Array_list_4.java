@@ -6,13 +6,15 @@ public class Array_list_4 {
         list.add("B");
         list.add("C");
         list.add("A");
+        list.add("D");
+        list.add("A");
         list.remove("A");
 
+        int j =0;
         for (int i=0; i< list.size();i++){
-            int j =0;
             if (list.get(i)=="A");
             j++;
-            if(j==2){
+            if(j==3){
              list.remove(i);
             }
         }
