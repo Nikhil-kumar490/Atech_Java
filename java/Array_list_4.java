@@ -10,12 +10,14 @@ public class Array_list_4 {
         list.add("A");
         list.remove("A");
 
+// for Size
         int j =0;
         for (int i=0; i< list.size();i++){
-            if (list.get(i)=="A");
+            if (list.get(i)=="A"){
             j++;
             if(j==3){
              list.remove(i);
+                }
             }
         }
         System.out.println(list);
