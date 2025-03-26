@@ -5,5 +5,10 @@ public class string {
         String s2 = "java";
         char c= s.charAt(1);
         System.out.println(c);
+
+        String s3 = "Me";
+        String s4 = "me";
+        System.out.println(s.equalsIgnoreCase(s4));
+
     }
 }
