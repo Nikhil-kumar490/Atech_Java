@@ -5,10 +5,10 @@ public class HalfSwap {
         Scanner sc = new Scanner(System.in);
 
 
-        System.out.print("Enter first word: ");
+        System.out.print("Enter 1st word: ");
         String word1 = sc.nextLine();
 
-        System.out.print("Enter second word: ");
+        System.out.print("Enter 2nd word: ");
         String word2 = sc.nextLine();
 
         int h1 = word1.length() / 2;
