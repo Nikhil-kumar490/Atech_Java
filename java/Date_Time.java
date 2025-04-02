@@ -16,6 +16,6 @@ public class Date_Time {
 
         DateTimeFormatter fort= DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         String F_date = dt.format(fort);
-        System.out.println(dt);
+        System.out.println(F_date);
     }
 }
