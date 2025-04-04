@@ -3,7 +3,7 @@
 
     public class Salting_Algorithm {
         public static String addSalt(String word) {
-            String saltedWord = "";
+            String saltedWord = " ";
 
             for (int i = 0; i < word.length(); i++) {
                 saltedWord = saltedWord + word.charAt(i) + "s";
